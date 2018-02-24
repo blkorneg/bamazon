@@ -1,7 +1,7 @@
 # bamazon
 
 
-Create a MySQL Database called bamazon.
+Created a MySQL Database called bamazon.
 Then created a table inside database called products.
 Populated database with 10 different products. 
 Created a Node application called bamazonCustomer.js. It will display all of  items available for sale. Included ids, names, and prices of products for sale.
