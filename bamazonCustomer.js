@@ -63,8 +63,16 @@ inquirer
 
   });
 
-  //TODO Add move validation and exeception handling and add more intelligence
-  //Notifiy if order can't be fulfill other with ship order
+  //TODO Add more validation,exeception handling and more intelligence
+
+  /*Notifiy if order can't be fulfill other with ship order
+   *
+   * @param instockQty
+   * @param desireQty
+   * @param price
+   * @param id
+   *
+   *****************************************************************************/
   function shipmentExecution(instockQty, desireQty, price, id) {
     if (desireQty > instockQty) {
         console.log("Sorry insufficient quantity! We have " + instockQty + " in stock.")
