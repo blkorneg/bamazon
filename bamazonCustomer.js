@@ -34,12 +34,12 @@ inquirer
   .prompt([
     {
       type: "input",
-      message: "Enter the ID of the product you would like to buy?",
+      message: "Enter the item ID of shoes you like to buy?",
       name: "id"
     },
     {
       type: "input",
-      message: "How may pair of sneaker would you like:",
+      message: "How many pairs of shoes would you like:",
       name: "quantity"
     }
   ]) //
